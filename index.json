@@ -1,0 +1,456 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Razer Huntsman V3 Pro TKL 8KHz Esports Gaming Keyboard",
+      "category": "keyboard",
+      "price": 211.99,
+      "rating": 4.4,
+      "reviews": 142,
+      "image": "imges/keybord.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FRPGVP9G",
+      "feature": "Analog Optical Switches Gen 2 with Rapid Trigger and Adjustable Actuation"
+    },
+    {
+      "id": 2,
+      "name": "AULA F75 Mechanical Gaming Keyboard",
+      "category": "keyboard",
+      "price": 68.99,
+      "rating": 4.6,
+      "reviews": 1314,
+      "image": "imges/keybord2.png",
+      "amazon_link": "https://www.amazon.com/dp/B0D14N2QZF",
+      "feature": "Hot Swappable, Knob Control, RGB Backlit, 3-mode connectivity (2.4GHz/USB-C/BT5.0)"
+    },
+    {
+      "id": 3,
+      "name": "TMKB T81E Mechanical Gaming Keyboard",
+      "category": "keyboard",
+      "price": 49.99,
+      "rating": 4.4,
+      "reviews": 9,
+      "image": "imges/keybord3.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FMK2JP7V",
+      "feature": "75% Gasket Mount, Hot-Swappable, 5-Layer Sound Dampening, RGB Backlit"
+    },
+    {
+      "id": 4,
+      "name": "Amazon Basics IPS Monitor 27 inch 75Hz",
+      "category": "monitor",
+      "price": 98.99,
+      "rating": 4.6,
+      "reviews": 1069,
+      "image": "imges/monitor.png",
+      "amazon_link": "https://www.amazon.com/dp/B08WJ3GYC9",
+      "feature": "FHD 1080P, IPS Panel, HDMI/Display Port/VGA, Built-in Speakers"
+    },
+    {
+      "id": 5,
+      "name": "Sceptre 27-inch Prime Monitor 100Hz",
+      "category": "monitor",
+      "price": 107.97,
+      "rating": 4.3,
+      "reviews": 78,
+      "image": "imges/monitor2.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FF7GRFPS",
+      "feature": "100Hz Refresh Rate, 1ms Response Time, 99% sRGB, Eye-Care, Built-in Speakers"
+    },
+    {
+      "id": 6,
+      "name": "Amzfast 27 inch 200Hz Curved Gaming Monitor",
+      "category": "monitor",
+      "price": 124.99,
+      "rating": 4.5,
+      "reviews": 1370,
+      "image": "imges/monitor3.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FP95MKJM",
+      "feature": "200Hz Refresh Rate, 1ms MPRT, Fast VA Panel, 130% sRGB, 1500R Curvature"
+    },
+    {
+      "id": 7,
+      "name": "Samsung 27 inch Essential S3 Curved Monitor",
+      "category": "monitor",
+      "price": 179.99,
+      "rating": 4.5,
+      "reviews": 1868,
+      "image": "imges/monitor4.png",
+      "amazon_link": "https://www.amazon.com/dp/B0DB9Q5G3R",
+      "feature": "1800R Curved, 100Hz Refresh Rate, FHD Resolution, Advanced Eye Comfort, HDMI & D-sub"
+    },
+
+    {
+      "id": 8,
+      "name": "YUNZII M1 Wireless Gaming Mouse",
+      "category": "mouse",
+      "price": 39.99,
+      "rating": 4.5,
+      "reviews": 12,
+      "image": "imges/mouse.png",
+      "amazon_link": "https://www.amazon.com/dp/B0GK994ZP9",
+      "feature": "Tri-Mode (2.4G/BT/Wired), PAW3311 Sensor, 10000 DPI, 5 Programmable Buttons"
+    },
+    {
+      "id": 9,
+      "name": "MCHOSE L7 Ultra+ Wireless Gaming Mouse",
+      "category": "mouse",
+      "price": 62.98,
+      "rating": 4.5,
+      "reviews": 42,
+      "image": "imges/mouse2.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FLXRB21V",
+      "feature": "Ultra-lightweight, 42K DPI, PAW3950 Sensor, Dual 8K Polling, 3-Mode Connect, 7 Programmable Buttons"
+    },
+    {
+      "id": 10,
+      "name": "DIERYA M1 Wireless Gaming Mouse",
+      "category": "mouse",
+      "price": 29.99,
+      "rating": 4.5,
+      "reviews": 82,
+      "image": "imges/mouse3.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FCFV5B2Q",
+      "feature": "24000 DPI, 180Hrs Battery, 16.8M RGB, 6 Programmable Buttons, Tri-Mode (2.4G/BT5.2/USB-C)"
+    },
+    {
+      "id": 11,
+      "name": "KONZID 2026 Laptop 15.6 inch",
+      "category": "laptop",
+      "price": 1399.99,
+      "rating": 4.3,
+      "reviews": 14,
+      "image": "imges/laptop.png",
+      "amazon_link": "https://www.amazon.com/dp/B0G6KDK77L",
+      "feature": "AMD Ryzen 3 4300U, AMD Radeon Graphics, 16GB RAM, 512GB NVMe SSD, 15.6 FHD IPS, Windows 11"
+    },
+    {
+      "id": 12,
+      "name": "MALLRACE 2025 Laptop 17.3-Inch FHD",
+      "category": "laptop",
+      "price": 1599.99,
+      "rating": 3.8,
+      "reviews": 26,
+      "image": "imges/laptop2.png",
+      "amazon_link": "https://www.amazon.com/dp/B0F8Q87SQY",
+      "feature": "12th Alder Lake N97, 16GB RAM, 512GB ROM, 6000mAh Battery, Windows 11"
+    },
+    {
+      "id": 2,
+      "name": "Naclud 15.6 Inch Laptop Computer",
+      "category": "laptop",
+      "price": 429.99,
+      "rating": 5.0,
+      "reviews": 3,
+      "image": "imges/laptop3.png",
+      "amazon_link": "https://www.amazon.com/dp/B0GFWHFB5F",
+      "feature": "16GB RAM, 512GB SSD, AMD Ryzen 5 3500U, Backlit keyboard, WiFi 6"
+    },
+    {
+      "id": 1,
+      "name": "ECOHERO 15.6 inch Laptop Alpha",
+      "category": "laptop",
+      "price": 379.0,
+      "rating": 4.5,
+      "reviews": 26,
+      "image": "imges/laptop4.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FKT5C3DN",
+      "feature": "15.6 FHD IPS, Pentium 6500Y, 32GB RAM, 1TB SSD, WiFi 5, BT5.0"
+    },
+    {
+      "id": 1,
+      "name": "ASUS Vivobook Go 15.6” FHD Slim Laptop",
+      "category": "laptop",
+      "price": 377.47,
+      "rating": 4.3,
+      "reviews": 870,
+      "image": "imges/laptop5.png",
+      "amazon_link": "https://www.amazon.com/dp/B0DTVQN7KM",
+      "feature": "AMD Ryzen 3 7320U, 8GB DDR5 RAM, 256GB SSD, Windows 11 Home"
+    },
+
+    {
+      "id": 1,
+      "name": "Solis Pro Mobile 5G Hotspot and Power Bank",
+      "category": "power",
+      "price": 299.99,
+      "rating": 4.0,
+      "reviews": 3028,
+      "image": "imges/power.png",
+      "amazon_link": "https://www.amazon.com/dp/B0F518CRGK",
+      "feature": "5G Hotspot, Portable Internet, Includes Lifetime & Global Data, Power Bank functionality"
+    },
+    {
+      "id": 1,
+      "name": "BoxWave 65W PD Power Bank (30,000mAh)",
+      "category": "power",
+      "price": 82.95,
+      "rating": null,
+      "reviews": null,
+      "image": "imges/power2.png",
+      "amazon_link": "https://www.amazon.com/dp/B0B9RJPS6H",
+      "feature": "65W Power Delivery, 30,000mAh High Capacity, USB-C"
+    },
+    {
+      "id": 1,
+      "name": "Wyrdforging Ergonomic Gaming Chair",
+      "category": "chair",
+      "price": 299.99,
+      "rating": 4.7,
+      "reviews": 10,
+      "image": "imges/chair.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FLC6X14W",
+      "feature": "4D Armrests, Lumbar Pillow, Tilt Rocker Recliner, Heavy-Duty Base"
+    },
+    {
+      "id": 1,
+      "name": "AreShark Ergonomic Office Chair",
+      "category": "chair",
+      "price": 129.99,
+      "rating": 4.3,
+      "reviews": 225,
+      "image": "imges/chair2.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FFMRCMDZ",
+      "feature": "Adjustable Lumbar Support, Breathable Mesh, Headrest Hanger, Swivel"
+    },
+    {
+      "id": 1,
+      "name": "Morkprism Ergonomic Office Chair",
+      "category": "chair",
+      "price": 119.99,
+      "rating": 4.3,
+      "reviews": 23,
+      "image": "imges/chair3.png",
+      "amazon_link": "https://www.amazon.com/dp/B0G3PC3PSC",
+      "feature": "2D Adjustable Lumbar Support, 3D Headrest, 2D Arms, High Back Mesh"
+    },
+    {
+      "id": 1,
+      "name": "TUKAKA White Gaming Chair with Footrest",
+      "category": "chair",
+      "price": 169.99,
+      "rating": 4.2,
+      "reviews": 252,
+      "image": "imges/chair4.png",
+      "amazon_link": "https://www.amazon.com/dp/B0DCHXTGRN",
+      "feature": "Footrest, Massage function, Reclining, Headrest and Lumbar Support"
+    },
+    {
+      "id": 1,
+      "name": "Opiesit Ergonomic Office Chair",
+      "category": "chair",
+      "price": 179.99,
+      "rating": 4.2,
+      "reviews": 27,
+      "image": "imges/chair5.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FR4KW3FL",
+      "feature": "3D Adjustable Lumbar Support, Adjustable Headrest & Armrests, 400lbs Capacity, Premium Mesh"
+    },
+    {
+      "id": 1,
+      "name": "Amazon Basics Portable Ergonomic Laptop Stand",
+      "category": "laptop_stand",
+      "price": 26.24,
+      "rating": 4.6,
+      "reviews": 2957,
+      "image": "imges/stands.png",
+      "amazon_link": "https://www.amazon.com/dp/B0BLRJ4R8F",
+      "feature": "Height adjustable, Ventilated cooling, Foldable, Fits laptops up to 17.3 inch"
+    },
+    {
+      "id": 9,
+      "name": "Urmust Laptop Notebook Stand Holder",
+      "category": "laptop_stand",
+      "price": 27.99,
+      "rating": 4.6,
+      "reviews": 16326,
+      "image": "imges/stands2.png",
+      "amazon_link": "https://www.amazon.com/dp/B081YXWDTQ",
+      "feature": "Adjustable, Portable, Compatible with MacBook Air Pro, HP, Dell, Lenovo"
+    },
+    {
+      "id": 10,
+      "name": "OMOTON LA10 360° Rotating Laptop Stand",
+      "category": "laptop_stand",
+      "price": 27.99,
+      "rating": 4.7,
+      "reviews": 1016,
+      "image": "imges/stands3.png",
+      "amazon_link": "https://www.amazon.com/dp/B0CQR99BG2",
+      "feature": "360° Rotating, Ergonomic, Foldable, Height Adjustable, Fits up to 16 inch laptops"
+    },
+    {
+      "id": 11,
+      "name": "Lamicall Adjustable Laptop Stand",
+      "category": "laptop_stand",
+      "price": 29.99,
+      "rating": 4.7,
+      "reviews": 10033,
+      "image": "imges/stands4.png",
+      "amazon_link": "https://www.amazon.com/dp/B08M94BTYC",
+      "feature": "Aluminum, Foldable, Ergonomic, Fits 10-17.3 inch Laptops"
+    },
+    {
+      "id": 2,
+      "name": "ZMYPPYA Laptop Stand with Active Cooling Fan",
+      "category": "laptop_stand",
+      "price": 35.8,
+      "rating": 4.6,
+      "reviews": 30,
+      "image": "imges/stands5.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FW52QPMH",
+      "feature": "Active Cooling Fan, Carbon Steel material, Air cooling method"
+    },
+    {
+      "id": 1,
+      "name": "Raycon The Everyday Wireless Bluetooth Over Ear Headphones",
+      "category": "headphones",
+      "price": 99.99,
+      "rating": 4.5,
+      "reviews": 4162,
+      "image": "imges/headphones.png",
+      "amazon_link": "https://www.amazon.com/dp/B08TMTFR6B",
+      "feature": "Active Noise Cancelling, Awareness Mode, Built in Microphone, 40 Hours Battery Life"
+    },
+
+    {
+      "id": 1,
+      "name": "Clemm Ambience Over-Ear Headphones",
+      "category": "headphones",
+      "price": 68.99,
+      "rating": 4.3,
+      "reviews": 40,
+      "image": "imges/headphones2.png",
+      "amazon_link": "https://www.amazon.com/dp/B0DXQDDQK3",
+      "feature": "Noise Cancelling, Transparency Mode, 65H Playtime, Memory Foam, Microphone"
+    },
+    {
+      "id": 1,
+      "name": "Sony WH-1000XM6 Wireless Noise Canceling Headphones",
+      "category": "headphones",
+      "price": 398.0,
+      "rating": 4.3,
+      "reviews": 2372,
+      "image": "imges/headphones3.png",
+      "amazon_link": "https://www.amazon.com/dp/B0F3PQHWTZ",
+      "feature": "Noise Canceling, HD NC Processor QN3, 12 Microphones, 30-Hour Battery"
+    },
+    {
+      "id": 5,
+      "name": "Jeecoo V20U USB Pro Gaming Headset",
+      "category": "headphones",
+      "price": 29.99,
+      "rating": 4.3,
+      "reviews": 21340,
+      "image": "imges/headphones4.png",
+      "amazon_link": "https://www.amazon.com/dp/B07TC8J6HK",
+      "feature": "7.1 Surround Sound, Noise Cancelling Microphone, Memory Foam Ear Pads, RGB Lights"
+    },
+    {
+      "id": 1,
+      "name": "Gaming USB Microphone, Noise Cancellation Condenser Mic",
+      "category": "microphone",
+      "price": 31.99,
+      "rating": 4.6,
+      "reviews": 77,
+      "image": "imges/mic.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FF9ZBR3W",
+      "feature": "Mute, Boom Arm, Reverb Adjustment, Monitoring, RGB"
+    },
+    {
+      "id": 2,
+      "name": "HyperX QuadCast S – RGB USB Condenser Microphone",
+      "category": "microphone",
+      "price": 144.0,
+      "rating": 4.7,
+      "reviews": 18712,
+      "image": "imges/mic2.png",
+      "amazon_link": "https://www.amazon.com/dp/B08G8WH435",
+      "feature": "Anti-Vibration Shock Mount, 4 Polar Patterns, Pop Filter, Gain Control"
+    },
+    {
+      "id": 3,
+      "name": "USB/XLR Dynamic Podcast Microphone with RGB Lighting",
+      "category": "microphone",
+      "price": 59.99,
+      "rating": 4.7,
+      "reviews": 20,
+      "image": "imges/mic3.png",
+      "amazon_link": "https://www.amazon.com/dp/B0G4VPH5Y9",
+      "feature": "Mute Button, Headphone Jack, Desktop Stand, TX2"
+    },
+    {
+      "id": 4,
+      "name": "HyperX SoloCast 2 – Gaming USB Condenser Mic",
+      "category": "microphone",
+      "price": 49.99,
+      "rating": 4.6,
+      "reviews": 219,
+      "image": "imges/mic4.png",
+      "amazon_link": "https://www.amazon.com/dp/B0FLKJ7FH7",
+      "feature": "USB-C to USB-A, Built-in Pop Filter, Internal Shock Mount, 24-bit / 96kHz"
+    },
+    {
+      "id": 5,
+      "name": "Computer Podcast Condenser Cardioid Metal Mic Kit",
+      "category": "microphone",
+      "price": 59.99,
+      "rating": 4.4,
+      "reviews": 15582,
+      "image": "imges/mic5.png",
+      "amazon_link": "https://www.amazon.com/dp/B07GQT8879",
+      "feature": "Professional Sound Chipset, Boom Arm, Pop Filter, Shock Mount (AU-A04)"
+    },
+    {
+      "id": 1,
+      "name": "Seagate Portable 2TB External Hard Drive",
+      "category": "storage",
+      "price": 99.99,
+      "rating": 4.7,
+      "reviews": 165000,
+      "image": "imges/seag.png",
+      "amazon_link": "https://www.amazon.com/dp/B07CRG94G3",
+      "feature": "2TB capacity, USB 3.0, Plug & Play, Portable design"
+    },
+    {
+      "id": 2,
+      "name": "SanDisk 1TB Extreme Portable SSD",
+      "category": "storage",
+      "price": 204.99,
+      "rating": 4.8,
+      "reviews": 78000,
+      "image": "imges/seag2.png",
+      "amazon_link": "https://www.amazon.com/dp/B08GTYFC37",
+      "feature": "1TB, NVMe speed, Up to 1050MB/s read, IP65 water/dust resistance"
+    },
+    {
+      "id": 2,
+      "name": "NexiGo N60 1080P Web Camera",
+      "category": "camera",
+      "price": 26.99,
+      "rating": 4.5,
+      "reviews": 25100,
+      "image": "imges/camera.png",
+      "amazon_link": "https://www.amazon.com/dp/B088TSR6YJ",
+      "feature": "1080P, Adjustable Privacy Cover, Wide Angle Lens, Plug & Play"
+    },
+    {
+      "id": 2,
+      "name": "5K Digital Camera 80MP UHD Vlogging Camera",
+      "category": "camera",
+      "image": "imges/camera3.png",
+      "feature": "80MP, 18X Zoom, 3\" 270° Flip Screen, WiFi, with 32GB Card.",
+      "price": 89.99,
+      "rating": 4.6,
+      "amazon_link": "https://www.amazon.com/5K-Digital-Camera-Photography-Autofocus/dp/B0G5KCYWG9"
+    },
+    {
+      "id": 3,
+      "name": "Digital Camera, FHD 1080P Point and Shoot",
+      "category": "camera",
+      "image": "imges/camera4.png",
+      "feature": "16X Zoom, Anti Shake, includes 32GB Card, Compact design.",
+      "price": 39.99,
+      "rating": 4.2,
+      "amazon_link": "https://www.amazon.com/dp/B0BRM31SQ1"
+    }
+  ]
+}

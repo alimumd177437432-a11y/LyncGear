@@ -1,0 +1,365 @@
+/* =========================
+   1. ROOT VARIABLES
+========================= */
+
+:root {
+  --primary: #ff9900;
+  --primary-hover: #e68a00;
+  --bg: #f5f7fa;
+  --card: #ffffff;
+  --text: #111;
+  --muted: #666;
+  --radius: 12px;
+  --shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* =========================
+   2. GLOBAL
+========================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* =========================
+   3. NAVBAR
+========================= */
+
+nav {
+  background: white;
+  padding: 18px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  box-shadow: var(--shadow);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.25s;
+}
+
+nav a:hover {
+  color: var(--primary);
+}
+
+/* =========================
+   4. HERO SECTION
+========================= */
+
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: linear-gradient(180deg, #ffffff, #f8fafc);
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.hero p {
+  max-width: 650px;
+  margin: auto;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+/* =========================
+   5. EXPERT SECTION
+========================= */
+
+.expert-picks {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.expert-picks h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.expert-picks p {
+  max-width: 700px;
+  margin: auto;
+  color: var(--muted);
+}
+
+/* =========================
+   6. PRODUCT GRID
+========================= */
+
+.products {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 25px;
+
+  padding: 40px 20px;
+}
+
+/* =========================
+   7. PRODUCT CARD
+========================= */
+
+.product {
+  background: var(--card);
+  border-radius: var(--radius);
+
+  padding: 20px;
+
+  box-shadow: var(--shadow);
+
+  transition: 0.25s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product:hover {
+  transform: translateY(-6px);
+}
+
+.product img {
+  width: 100%;
+  height: 160px;
+
+  object-fit: contain;
+
+  margin-bottom: 15px;
+}
+
+/* title */
+
+.product h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* feature */
+
+.feature {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 15px;
+}
+
+/* meta */
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.rating {
+  color: #f5b50a;
+  font-size: 14px;
+}
+
+/* button */
+
+.buy {
+  display: block;
+
+  text-align: center;
+
+  background: var(--primary);
+
+  color: white;
+
+  padding: 10px;
+
+  border-radius: 8px;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition: 0.25s;
+}
+
+.buy:hover {
+  background: var(--primary-hover);
+}
+
+/* =========================
+   8. FOOTER
+========================= */
+
+footer {
+  background: #111;
+
+  color: white;
+
+  padding: 50px 20px;
+
+  margin-top: 50px;
+}
+
+.footer-content {
+  max-width: 1200px;
+
+  margin: auto;
+
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-logo span {
+  color: var(--primary);
+}
+
+.contact-info {
+  color: #bbb;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+}
+
+/* =========================
+   9. RESPONSIVE
+========================= */
+
+@media (max-width: 1024px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .products {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+  .hero {
+    padding: 50px 15px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .products {
+    grid-template-columns: 1fr;
+  }
+
+  .product img {
+    height: 140px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+}
+/* =========================
+   10. MOBILE MENU
+========================= */
+
+/* تعريف الزر بشكل عام (يظهر في الموبايل فقط بفضل الـ Media Query أدناه) */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--text);
+  padding: 5px;
+}
+
+/* التنسيق الخاص بشاشات الموبايل */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* يظهر الزر هنا */
+  }
+
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  nav ul {
+    display: none; /* مخفية افتراضياً */
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    gap: 10px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+  }
+
+  nav ul.show {
+    display: flex; /* تظهر عند الضغط */
+  }
+}

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="/imges/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="canonical" href="https://lyncgear.com/Monitors.html" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      High-Res Professional Monitors for Developers & Designers | LyncGear
+    </title>
+
+    <meta
+      name="description"
+      content="Boost your productivity with professional 4K and Ultra-Wide monitors. Perfect for software developers and designers who need sharp text and color precision."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "ItemList",
+        "name": "Professional Monitors for Tech Specialists",
+        "description": "A curated selection of the best monitors for coding, multitasking, and visual design.",
+        "url": "https://lyncgear.com/monitors.html",
+        "numberOfItems": 4,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Amazon Basics IPS Monitor 27 inch"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Sceptre 27-inch Prime Monitor"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Amzfast 27 inch 200Hz Curved Gaming Monitor"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Samsung 27 inch Essential S3 Curved Monitor"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Lync<span style="color: #e68a00">Gear</span></div>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="keyboards.html">Keyboards</a></li>
+        <li><a href="monitors.html">Monitors</a></li>
+        <li><a href="laptops.html">Laptops</a></li>
+        <li><a href="mouse.html">Mouse</a></li>
+        <li><a href="microphone.html">Mics</a></li>
+        <li><a href="headphones.html">Headphones</a></li>
+        <li><a href="cameras.html">Cameras</a></li>
+        <li><a href="chairs.html">Chairs</a></li>
+        <li><a href="stands.html">Stands</a></li>
+        <li><a href="storage.html">Storage</a></li>
+        <li><a href="power.html">Power</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <h1>Professional Monitors for Crystal-Clear Detail</h1>
+      <p>
+        See your work in high definition with color-accurate, sharp displays for
+        every project.
+      </p>
+    </section>
+
+    <section class="expert-picks">
+      <h2>Designed for Clarity and Visual Precision</h2>
+      <p>
+        Our monitors are carefully selected to provide the best screen real
+        estate, contrast, and response times for creators and professionals.
+      </p>
+    </section>
+
+    <section class="products" id="products-grid"></section>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">Lync<span>Gear</span></div>
+        <div class="contact-info">
+          <p>&copy; 2026 LyncGear. All rights reserved.</p>
+          <a href="tel:+970599177437"
+            ><i class="fas fa-phone"></i> +970599177437</a
+          >
+          <br />
+          <a href="mailto:alimumd177437432@gmail.com"
+            ><i class="fas fa-envelope"></i> alimumd177437432@gmail.com</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        fetch("index.json")
+          .then((res) => res.json())
+          .then((data) => {
+            // فلترة الشاشات فقط
+            const filtered = data.products.filter(
+              (p) => p.category === "monitor",
+            );
+            // تأكد أن دالة renderProducts موجودة في index.js المطور الذي أرسلته لك سابقاً
+            renderProducts(filtered);
+          });
+      });
+    </script>
+  </body>
+</html>

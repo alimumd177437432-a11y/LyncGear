@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="/imges/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="canonical" href="https://lyncgear.com/Microphone.html" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      Professional Studio Microphones for Streaming & Tech Content | LyncGear
+    </title>
+
+    <meta
+      name="description"
+      content="Upgrade your audio with professional studio-grade microphones. Ideal for tech YouTubers, podcasters, and remote developers who need crystal-clear communication and noise suppression."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "ItemList",
+        "name": "Top-Rated Microphones for Tech Professionals",
+        "description": "A curated list of USB and XLR microphones designed for high-quality audio recording and online communication.",
+        "url": "https://lyncgear.com/microphone.html",
+        "numberOfItems": 3,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Bietrun USB Microphone with Mute Button"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "USB Gaming Microphone for PC"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Condenser Microphone with Arm Stand"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Lync<span style="color: #e68a00">Gear</span></div>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="keyboards.html">Keyboards</a></li>
+        <li><a href="monitors.html">Monitors</a></li>
+        <li><a href="laptops.html">Laptops</a></li>
+        <li><a href="mouse.html">Mouse</a></li>
+        <li><a href="microphone.html">Mics</a></li>
+        <li><a href="headphones.html">Headphones</a></li>
+        <li><a href="cameras.html">Cameras</a></li>
+        <li><a href="chairs.html">Chairs</a></li>
+        <li><a href="stands.html">Stands</a></li>
+        <li><a href="storage.html">Storage</a></li>
+        <li><a href="power.html">Power</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <h1>Professional Mics for Crystal-Clear Communication</h1>
+      <p>
+        Get studio-quality audio that captures every detail for your meetings
+        and content creation.
+      </p>
+    </section>
+
+    <section class="expert-picks">
+      <h2>Studio-Grade Sound for Creators</h2>
+      <p>
+        Experience elite audio performance with our selection of microphones,
+        featuring advanced noise suppression and plug-and-play simplicity.
+      </p>
+    </section>
+
+    <section class="products" id="products-grid"></section>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">Lync<span>Gear</span></div>
+        <div class="contact-info">
+          <p>&copy; 2026 LyncGear. All rights reserved.</p>
+          <a href="tel:+970599177437"
+            ><i class="fas fa-phone"></i> +970599177437</a
+          >
+          <br />
+          <a href="mailto:alimumd177437432@gmail.com"
+            ><i class="fas fa-envelope"></i> alimumd177437432@gmail.com</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        fetch("index.json")
+          .then((res) => res.json())
+          .then((data) => {
+            // فلترة المنتجات لتصنيف microphone
+            const filtered = data.products.filter(
+              (p) => p.category === "microphone",
+            );
+            renderProducts(filtered);
+          });
+      });
+    </script>
+  </body>
+</html>
