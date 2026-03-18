@@ -1,15 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://lyncgear.com/index.html</loc></url>
-  <url><loc>https://lyncgear.com/keyboards.html</loc></url>
-  <url><loc>https://lyncgear.com/Monitors.html</loc></url>
-  <url><loc>https://lyncgear.com/laptops.html</loc></url>
-  <url><loc>https://lyncgear.com/Mouse.html</loc></url>
-  <url><loc>https://lyncgear.com/Microphone.html</loc></url>
-  <url><loc>https://lyncgear.com/headphones.html</loc></url>
-  <url><loc>https://lyncgear.com/Cameras.html</loc></url>
-  <url><loc>https://lyncgear.com/Chairs.html</loc></url>
-  <url><loc>https://lyncgear.com/Stands.html</loc></url>
-  <url><loc>https://lyncgear.com/storage.html</loc></url>
-  <url><loc>https://lyncgear.com/power.html</loc></url>
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Main Pages -->
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/index.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/keyboards.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/Monitors.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/laptops.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/Mouse.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/Microphone.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/headphones.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/Cameras.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/Chairs.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/Stands.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/storage.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://alimumd177437432-a11y.github.io/LyncGear/power.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>
