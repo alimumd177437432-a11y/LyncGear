@@ -61,7 +61,7 @@ function renderProducts(list) {
     grid.appendChild(div);
   });
 }
-// كود تشغيل قائمة الموبايل
+
 document.addEventListener("DOMContentLoaded", () => {
   const menuToggle = document.querySelector(".menu-toggle");
   const navUl = document.querySelector("nav ul");
