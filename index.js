@@ -35,14 +35,17 @@ function renderProducts(list) {
       : "<p style='text-align:center; grid-column: 1/-1;'>No products found in this category.</p>";
 
   list.forEach((p) => {
-    // تحسين الروابط: إضافة rel للأمان والـ SEO
+    const finalLink = p.amazon_link.includes("?")
+      ? `${p.amazon_link}&tag=lyncstore-20`
+      : `${p.amazon_link}?tag=lyncstore-20`;
+    // --------------------------------------------
+
     const div = document.createElement("div");
     div.className = "product";
 
-    // تعديل محتوى الكرت لإضافة تحسينات الـ SEO
     div.innerHTML = `
             <img src="${p.image}" 
-                 alt="${p.name} - ${p.category} for Tech Professionals" 
+                 alt="${p.name} - ${p.category}" 
                  loading="lazy">
             <h3>${p.name}</h3>
             <p class="feature">${p.feature}</p>
@@ -51,7 +54,7 @@ function renderProducts(list) {
                 <span class="rating">${p.rating ? "⭐".repeat(Math.round(p.rating)) : "⭐ 4.5"}</span>
             </div>
             <a class="buy" 
-               href="${p.amazon_link}" 
+               href="${finalLink}" 
                target="_blank" 
                rel="noopener noreferrer">View on Amazon</a>
         `;
