@@ -229,46 +229,6 @@ nav a:hover {
   background: var(--primary-hover);
 }
 
-/* =========================
-   8. FOOTER
-========================= */
-
-footer {
-  background: #111;
-
-  color: white;
-
-  padding: 50px 20px;
-
-  margin-top: 50px;
-}
-
-.footer-content {
-  max-width: 1200px;
-
-  margin: auto;
-
-  text-align: center;
-}
-
-.footer-logo {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.footer-logo span {
-  color: var(--primary);
-}
-
-.contact-info {
-  color: #bbb;
-}
-
-.contact-info a {
-  color: white;
-  text-decoration: none;
-}
 
 /* =========================
    9. RESPONSIVE
